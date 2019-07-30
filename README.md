@@ -3,37 +3,21 @@
 ## Playgrounds, Files 
 
 - __iOS-Study-Playgrounds__
-  - __CoreDataModelHelper__
-    - __CoreDataModelHelper__
-      - [AppDelegate.swift](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/AppDelegate.swift)
-      - __Assets.xcassets__
-        - __AppIcon.appiconset__
-          - [Contents.json](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Assets.xcassets/AppIcon.appiconset/Contents.json)
-      - __Base.lproj__
-        - [LaunchScreen.storyboard](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Base.lproj/LaunchScreen.storyboard)
-        - [Main.storyboard](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Base.lproj/Main.storyboard)
-      - __CoreDataModelHelper.xcdatamodeld__
-        - __CoreDataModelHelper.xcdatamodel__
-          - [contents](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/CoreDataModelHelper.xcdatamodeld/CoreDataModelHelper.xcdatamodel/contents)
-      - [Info.plist](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Info.plist)
-      - [ViewController.swift](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/ViewController.swift)
-    - __CoreDataModelHelper.xcodeproj__
-      - [project.pbxproj](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper.xcodeproj/project.pbxproj)
   - __CodablePlayground.playground__
     - __Pages__
       - __AutomaticDecoding.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/AutomaticDecoding.xcplaygroundpage/Contents.swift)
         - [timeline.xctimeline](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/AutomaticDecoding.xcplaygroundpage/timeline.xctimeline)
+      - __CodableClasses.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/CodableClasses.xcplaygroundpage/Contents.swift)
       - __AutomaticEncoding.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/AutomaticEncoding.xcplaygroundpage/Contents.swift)
         - [timeline.xctimeline](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/AutomaticEncoding.xcplaygroundpage/timeline.xctimeline)
-      - __CodableClasses.xcplaygroundpage__
-        - [Contents.swift](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/CodableClasses.xcplaygroundpage/Contents.swift)
+      - __CodingUserInfoKey.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/CodingUserInfoKey.xcplaygroundpage/Contents.swift)
       - __DecodeWithIntermediateType.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/DecodeWithIntermediateType.xcplaygroundpage/Contents.swift)
         - [timeline.xctimeline](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/DecodeWithIntermediateType.xcplaygroundpage/timeline.xctimeline)
-      - __CodingUserInfoKey.xcplaygroundpage__
-        - [Contents.swift](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/CodingUserInfoKey.xcplaygroundpage/Contents.swift)
       - __DynamicCodingKey.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/CodablePlayground.playground/Pages/DynamicCodingKey.xcplaygroundpage/Contents.swift)
       - __EncoderDecoderCustomization.xcplaygroundpage__
@@ -64,15 +48,87 @@
       - [enigma.jpg](iOS-Study-Playgrounds/CodablePlayground.playground/Resources/enigma.jpg)
     - __playground.xcworkspace__
       - [contents.xcworkspacedata](iOS-Study-Playgrounds/CodablePlayground.playground/playground.xcworkspace/contents.xcworkspacedata)
-      - __xcshareddata__
-        - [IDEWorkspaceChecks.plist](iOS-Study-Playgrounds/CodablePlayground.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist)
-        - [WorkspaceSettings.xcsettings](iOS-Study-Playgrounds/CodablePlayground.playground/playground.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings)
       - __xcuserdata__
         - __filip.zielinski.xcuserdatad__
           - [UserInterfaceState.xcuserstate](iOS-Study-Playgrounds/CodablePlayground.playground/playground.xcworkspace/xcuserdata/filip.zielinski.xcuserdatad/UserInterfaceState.xcuserstate)
           - [WorkspaceSettings.xcsettings](iOS-Study-Playgrounds/CodablePlayground.playground/playground.xcworkspace/xcuserdata/filip.zielinski.xcuserdatad/WorkspaceSettings.xcsettings)
         - __krishna.xcuserdatad__
           - [UserInterfaceState.xcuserstate](iOS-Study-Playgrounds/CodablePlayground.playground/playground.xcworkspace/xcuserdata/krishna.xcuserdatad/UserInterfaceState.xcuserstate)
+      - __xcshareddata__
+        - [IDEWorkspaceChecks.plist](iOS-Study-Playgrounds/CodablePlayground.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist)
+        - [WorkspaceSettings.xcsettings](iOS-Study-Playgrounds/CodablePlayground.playground/playground.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings)
+  - __ConcurrencyIsHard.playground__
+    - [Duration.remap](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Duration.remap)
+    - [NetworkSimulator.remap](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/NetworkSimulator.remap)
+    - [GradientGenerator.remap](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/GradientGenerator.remap)
+    - __Pages__
+      - __Async Operations.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Async Operations.xcplaygroundpage/Contents.swift)
+      - __Dispatch Barriers.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Dispatch Barriers.xcplaygroundpage/Contents.swift)
+        - __Sources__
+          - [Delay.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Dispatch Barriers.xcplaygroundpage/Sources/Delay.swift)
+          - [Person.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Dispatch Barriers.xcplaygroundpage/Sources/Person.swift)
+      - __Dispatch Groups.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Dispatch Groups.xcplaygroundpage/Contents.swift)
+      - __Futures.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Futures.xcplaygroundpage/Contents.swift)
+      - __GCD.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/GCD.xcplaygroundpage/Contents.swift)
+      - __Operation Dependencies.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Operation Dependencies.xcplaygroundpage/Contents.swift)
+        - __Sources__
+          - [AsyncOperation.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Operation Dependencies.xcplaygroundpage/Sources/AsyncOperation.swift)
+      - __Operation.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Operation.xcplaygroundpage/Contents.swift)
+      - __OperationQueue.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/OperationQueue.xcplaygroundpage/Contents.swift)
+      - __Operations in Practice.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Operations in Practice.xcplaygroundpage/Contents.swift)
+        - __Sources__
+          - [AsyncOperation.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Operations in Practice.xcplaygroundpage/Sources/AsyncOperation.swift)
+          - [ImageCell.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Operations in Practice.xcplaygroundpage/Sources/ImageCell.swift)
+          - [ImageFilters.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Operations in Practice.xcplaygroundpage/Sources/ImageFilters.swift)
+          - [ImageLoader.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Pages/Operations in Practice.xcplaygroundpage/Sources/ImageLoader.swift)
+    - __Sources__
+      - [Duration.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Sources/Duration.swift)
+      - __Graphics__
+        - [GradientGenerator.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Sources/Graphics/GradientGenerator.swift)
+        - [UIImage+Blur.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Sources/Graphics/UIImage+Blur.swift)
+      - [NetworkSimulator.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Sources/NetworkSimulator.swift)
+      - [TiltShift.swift](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Sources/TiltShift.swift)
+    - __Resources__
+      - [dark_road_small.jpg](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Resources/dark_road_small.jpg)
+      - [razeware_64.png](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Resources/razeware_64.png)
+      - [train_day.jpg](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Resources/train_day.jpg)
+      - [train_dusk.jpg](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Resources/train_dusk.jpg)
+      - [train_night.jpg](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/Resources/train_night.jpg)
+    - [TiltShift.remap](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/TiltShift.remap)
+    - [UIImage+Blur.remap](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/UIImage+Blur.remap)
+    - [contents.xcplayground](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/contents.xcplayground)
+    - __playground.xcworkspace__
+      - [contents.xcworkspacedata](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/playground.xcworkspace/contents.xcworkspacedata)
+      - __xcuserdata__
+        - __krishna.xcuserdatad__
+          - [UserInterfaceState.xcuserstate](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/playground.xcworkspace/xcuserdata/krishna.xcuserdatad/UserInterfaceState.xcuserstate)
+      - __xcshareddata__
+        - [IDEWorkspaceChecks.plist](iOS-Study-Playgrounds/ConcurrencyIsHard.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist)
+  - __CoreDataModelHelper__
+    - __CoreDataModelHelper.xcodeproj__
+      - [project.pbxproj](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper.xcodeproj/project.pbxproj)
+    - __CoreDataModelHelper__
+      - [AppDelegate.swift](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/AppDelegate.swift)
+      - __Assets.xcassets__
+        - __AppIcon.appiconset__
+          - [Contents.json](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Assets.xcassets/AppIcon.appiconset/Contents.json)
+      - __Base.lproj__
+        - [LaunchScreen.storyboard](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Base.lproj/LaunchScreen.storyboard)
+        - [Main.storyboard](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Base.lproj/Main.storyboard)
+      - __CoreDataModelHelper.xcdatamodeld__
+        - __CoreDataModelHelper.xcdatamodel__
+          - [contents](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/CoreDataModelHelper.xcdatamodeld/CoreDataModelHelper.xcdatamodel/contents)
+      - [Info.plist](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Info.plist)
+      - [ViewController.swift](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/ViewController.swift)
   - __Crustacean.playground__
     - __Pages__
       - __License.xcplaygroundpage__
@@ -86,7 +142,6 @@
     - [contents.xcplayground](iOS-Study-Playgrounds/Crustacean.playground/contents.xcplayground)
   - [Modern-Core-Data-Playground.md](iOS-Study-Playgrounds/Modern-Core-Data-Playground.md)
   - [README.md](iOS-Study-Playgrounds/README.md)
-  - __Using-JSON-with-Custom-Types.playground__
   - __Swift Standard Library.playground__
     - __Pages__
       - __Creating a Generic Collection.xcplaygroundpage__
@@ -104,16 +159,16 @@
         - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/License.xcplaygroundpage/Contents.swift)
       - __Processing Sequences and Collections.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Processing Sequences and Collections.xcplaygroundpage/Contents.swift)
-      - __Sequences and Collections.xcplaygroundpage__
-        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Sequences and Collections.xcplaygroundpage/Contents.swift)
       - __Revision History.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Revision History.xcplaygroundpage/Contents.swift)
+      - __Sequences and Collections.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Sequences and Collections.xcplaygroundpage/Contents.swift)
       - __Slicing Collections.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Slicing Collections.xcplaygroundpage/Contents.swift)
-      - __Table of Contents.xcplaygroundpage__
-        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Table of Contents.xcplaygroundpage/Contents.swift)
       - __Text.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Text.xcplaygroundpage/Contents.swift)
+      - __Table of Contents.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Table of Contents.xcplaygroundpage/Contents.swift)
       - __Understanding Collection Protocols.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Understanding Collection Protocols.xcplaygroundpage/Contents.swift)
         - __Sources__
@@ -128,18 +183,29 @@
       - [Italy 010.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 010.jpg)
       - [Italy 012.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 012.jpg)
       - [Italy 014.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 014.jpg)
-      - [Italy 015.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 015.jpg)
       - [Italy 016.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 016.jpg)
+      - [Italy 015.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 015.jpg)
       - [Italy 018.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 018.jpg)
       - [Italy 019.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 019.jpg)
-      - [Italy 020.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 020.jpg)
       - [NoImage.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/NoImage.jpg)
+      - [Italy 020.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 020.jpg)
       - [Timeline.plist](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Timeline.plist)
     - __Sources__
       - [RecipeApp.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Sources/RecipeApp.swift)
-      - [StringVisualizations.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Sources/StringVisualizations.swift)
       - [TimelineVisualizations.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Sources/TimelineVisualizations.swift)
+      - [StringVisualizations.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Sources/StringVisualizations.swift)
     - [contents.xcplayground](iOS-Study-Playgrounds/Swift Standard Library.playground/contents.xcplayground)
+  - __Using-JSON-with-Custom-Types.playground__
+  - __core-data-intro.playground__
+    - [Contents.swift](iOS-Study-Playgrounds/core-data-intro.playground/Contents.swift)
+    - [contents.xcplayground](iOS-Study-Playgrounds/core-data-intro.playground/contents.xcplayground)
+    - __playground.xcworkspace__
+      - [contents.xcworkspacedata](iOS-Study-Playgrounds/core-data-intro.playground/playground.xcworkspace/contents.xcworkspacedata)
+      - __xcshareddata__
+        - [IDEWorkspaceChecks.plist](iOS-Study-Playgrounds/core-data-intro.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist)
+      - __xcuserdata__
+        - __krishna.xcuserdatad__
+          - [UserInterfaceState.xcuserstate](iOS-Study-Playgrounds/core-data-intro.playground/playground.xcworkspace/xcuserdata/krishna.xcuserdatad/UserInterfaceState.xcuserstate)
   - __Modern-Core-Data-Playground.playground__
     - __Pages__
       - __Core Data Notifications.xcplaygroundpage__
@@ -148,22 +214,22 @@
         - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Custom Core Data Stack.xcplaygroundpage/Contents.swift)
       - __Delete.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Delete.xcplaygroundpage/Contents.swift)
-      - __Fetch Projects.xcplaygroundpage__
-        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Fetch Projects.xcplaygroundpage/Contents.swift)
       - __Fetch Tasks.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Fetch Tasks.xcplaygroundpage/Contents.swift)
-      - __Generic Fetch.xcplaygroundpage__
-        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Generic Fetch.xcplaygroundpage/Contents.swift)
+      - __Fetch Projects.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Fetch Projects.xcplaygroundpage/Contents.swift)
       - __HowToUsePlaygrounds.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Contents.swift)
         - __Resources__
           - [pages.gif](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Resources/pages.gif)
           - [pages.png](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Resources/pages.png)
           - [preview.gif](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Resources/preview.gif)
-      - __Init Core Data the Easy way NSPersistentContainer.xcplaygroundpage__
-        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Init Core Data the Easy way NSPersistentContainer.xcplaygroundpage/Contents.swift)
+      - __Generic Fetch.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Generic Fetch.xcplaygroundpage/Contents.swift)
       - __Insert a Project with many tasks.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Insert a Project with many tasks.xcplaygroundpage/Contents.swift)
+      - __Init Core Data the Easy way NSPersistentContainer.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Init Core Data the Easy way NSPersistentContainer.xcplaygroundpage/Contents.swift)
       - __Insert a Project.xcplaygroundpage__
         - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Insert a Project.xcplaygroundpage/Contents.swift)
       - __Intro.xcplaygroundpage__
@@ -177,36 +243,17 @@
       - __CoreDataModelHelper.xcdatamodeld__
         - __CoreDataModelHelper.xcdatamodel__
           - [contents](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Resources/CoreDataModelHelper.xcdatamodeld/CoreDataModelHelper.xcdatamodel/contents)
-    - [contents.xcplayground](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/contents.xcplayground)
     - __Sources__
       - __Core Data Generated Files__
         - [Project+CoreDataClass.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Project+CoreDataClass.swift)
-        - [Task+CoreDataProperties.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Task+CoreDataProperties.swift)
         - [Project+CoreDataProperties.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Project+CoreDataProperties.swift)
+        - [Task+CoreDataProperties.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Task+CoreDataProperties.swift)
         - [Task+CoreDataClass.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Task+CoreDataClass.swift)
       - [CountAllProjects.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/CountAllProjects.swift)
       - [FirstProject.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/FirstProject.swift)
       - [HWContainer.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/HWContainer.swift)
       - [InsertSomeProjects.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/InsertSomeProjects.swift)
-  - __events-ios.playground__
-    - [Contents.swift](iOS-Study-Playgrounds/events-ios.playground/Contents.swift)
-    - __Resources__
-      - __Model.xcdatamodel__
-        - [contents](iOS-Study-Playgrounds/events-ios.playground/Resources/Model.xcdatamodel/contents)
-    - __Sources__
-      - [CoreDataHelpers.swift](iOS-Study-Playgrounds/events-ios.playground/Sources/CoreDataHelpers.swift)
-      - [DataSource.swift](iOS-Study-Playgrounds/events-ios.playground/Sources/DataSource.swift)
-    - [contents.xcplayground](iOS-Study-Playgrounds/events-ios.playground/contents.xcplayground)
-  - __core-data-intro.playground__
-    - [Contents.swift](iOS-Study-Playgrounds/core-data-intro.playground/Contents.swift)
-    - [contents.xcplayground](iOS-Study-Playgrounds/core-data-intro.playground/contents.xcplayground)
-    - __playground.xcworkspace__
-      - __xcshareddata__
-        - [IDEWorkspaceChecks.plist](iOS-Study-Playgrounds/core-data-intro.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist)
-      - [contents.xcworkspacedata](iOS-Study-Playgrounds/core-data-intro.playground/playground.xcworkspace/contents.xcworkspacedata)
-      - __xcuserdata__
-        - __krishna.xcuserdatad__
-          - [UserInterfaceState.xcuserstate](iOS-Study-Playgrounds/core-data-intro.playground/playground.xcworkspace/xcuserdata/krishna.xcuserdatad/UserInterfaceState.xcuserstate)
+    - [contents.xcplayground](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/contents.xcplayground)
   - __img__
     - [init-core-data.png](iOS-Study-Playgrounds/img/init-core-data.png)
   - __nstableview-core-data.playground__
@@ -221,6 +268,15 @@
       - __Model.xcdatamodel__
         - [contents](iOS-Study-Playgrounds/uikit-core-data.playground/Resources/Model.xcdatamodel/contents)
     - [contents.xcplayground](iOS-Study-Playgrounds/uikit-core-data.playground/contents.xcplayground)
+  - __events-ios.playground__
+    - [Contents.swift](iOS-Study-Playgrounds/events-ios.playground/Contents.swift)
+    - __Resources__
+      - __Model.xcdatamodel__
+        - [contents](iOS-Study-Playgrounds/events-ios.playground/Resources/Model.xcdatamodel/contents)
+    - __Sources__
+      - [CoreDataHelpers.swift](iOS-Study-Playgrounds/events-ios.playground/Sources/CoreDataHelpers.swift)
+      - [DataSource.swift](iOS-Study-Playgrounds/events-ios.playground/Sources/DataSource.swift)
+    - [contents.xcplayground](iOS-Study-Playgrounds/events-ios.playground/contents.xcplayground)
 
 ## References 
 
