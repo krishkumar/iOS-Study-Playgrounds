@@ -2,231 +2,164 @@
 
 ## Playgrounds, Files 
 
-- __testprep__
-  - __Crustacean.playground__
-    - __Pages__
-      - __License.xcplaygroundpage__
-        - [Contents.swift](testprep/Crustacean.playground/Pages/License.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Crustacean.playground/Pages/License.xcplaygroundpage/timeline.xctimeline)
-      - __Page 1.xcplaygroundpage__
-        - [Contents.swift](testprep/Crustacean.playground/Pages/Page 1.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Crustacean.playground/Pages/Page 1.xcplaygroundpage/timeline.xctimeline)
-      - __Page 2.xcplaygroundpage__
-        - [Contents.swift](testprep/Crustacean.playground/Pages/Page 2.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Crustacean.playground/Pages/Page 2.xcplaygroundpage/timeline.xctimeline)
-    - [contents.xcplayground](testprep/Crustacean.playground/contents.xcplayground)
-    - __Sources__
-      - [CoreGraphicsDiagramView.swift](testprep/Crustacean.playground/Sources/CoreGraphicsDiagramView.swift)
-    - __playground.xcworkspace__
-      - [contents.xcworkspacedata](testprep/Crustacean.playground/playground.xcworkspace/contents.xcworkspacedata)
-      - __xcshareddata__
-        - [IDEWorkspaceChecks.plist](testprep/Crustacean.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist)
-      - __xcuserdata__
-        - __krishna.xcuserdatad__
-          - [UserInterfaceState.xcuserstate](testprep/Crustacean.playground/playground.xcworkspace/xcuserdata/krishna.xcuserdatad/UserInterfaceState.xcuserstate)
+- __iOS-Study-Playgrounds__
+  - __CoreDataModelHelper__
+    - __CoreDataModelHelper__
+      - [AppDelegate.swift](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/AppDelegate.swift)
+      - __Assets.xcassets__
+        - __AppIcon.appiconset__
+          - [Contents.json](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Assets.xcassets/AppIcon.appiconset/Contents.json)
+      - __Base.lproj__
+        - [LaunchScreen.storyboard](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Base.lproj/LaunchScreen.storyboard)
+        - [Main.storyboard](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Base.lproj/Main.storyboard)
+      - __CoreDataModelHelper.xcdatamodeld__
+        - __CoreDataModelHelper.xcdatamodel__
+          - [contents](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/CoreDataModelHelper.xcdatamodeld/CoreDataModelHelper.xcdatamodel/contents)
+      - [ViewController.swift](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/ViewController.swift)
+      - [Info.plist](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper/Info.plist)
+    - __CoreDataModelHelper.xcodeproj__
+      - [project.pbxproj](iOS-Study-Playgrounds/CoreDataModelHelper/CoreDataModelHelper.xcodeproj/project.pbxproj)
   - __Modern-Core-Data-Playground.playground__
     - __Pages__
       - __Core Data Notifications.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Core Data Notifications.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Core Data Notifications.xcplaygroundpage/Contents.swift)
       - __Custom Core Data Stack.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Custom Core Data Stack.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Modern-Core-Data-Playground.playground/Pages/Custom Core Data Stack.xcplaygroundpage/timeline.xctimeline)
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Custom Core Data Stack.xcplaygroundpage/Contents.swift)
       - __Delete.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Delete.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Delete.xcplaygroundpage/Contents.swift)
       - __Fetch Projects.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Fetch Projects.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Fetch Projects.xcplaygroundpage/Contents.swift)
       - __Fetch Tasks.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Fetch Tasks.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Fetch Tasks.xcplaygroundpage/Contents.swift)
       - __Generic Fetch.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Generic Fetch.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Generic Fetch.xcplaygroundpage/Contents.swift)
       - __HowToUsePlaygrounds.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/timeline.xctimeline)
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Contents.swift)
         - __Resources__
-          - [pages.gif](testprep/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Resources/pages.gif)
-          - [preview.gif](testprep/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Resources/preview.gif)
-          - [pages.png](testprep/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Resources/pages.png)
-      - __Insert a Project with many tasks.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Insert a Project with many tasks.xcplaygroundpage/Contents.swift)
-      - __Intro.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Intro.xcplaygroundpage/Contents.swift)
-      - __The Core Data Stack.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/The Core Data Stack.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Modern-Core-Data-Playground.playground/Pages/The Core Data Stack.xcplaygroundpage/timeline.xctimeline)
-      - __Insert a Project.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Insert a Project.xcplaygroundpage/Contents.swift)
+          - [pages.gif](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Resources/pages.gif)
+          - [preview.gif](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Resources/preview.gif)
+          - [pages.png](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/HowToUsePlaygrounds.xcplaygroundpage/Resources/pages.png)
       - __Init Core Data the Easy way NSPersistentContainer.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Init Core Data the Easy way NSPersistentContainer.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Modern-Core-Data-Playground.playground/Pages/Init Core Data the Easy way NSPersistentContainer.xcplaygroundpage/timeline.xctimeline)
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Init Core Data the Easy way NSPersistentContainer.xcplaygroundpage/Contents.swift)
+      - __Insert a Project.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Insert a Project.xcplaygroundpage/Contents.swift)
+      - __Intro.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Intro.xcplaygroundpage/Contents.swift)
+      - __Insert a Project with many tasks.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Insert a Project with many tasks.xcplaygroundpage/Contents.swift)
       - __Undo management.xcplaygroundpage__
-        - [Contents.swift](testprep/Modern-Core-Data-Playground.playground/Pages/Undo management.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/Undo management.xcplaygroundpage/Contents.swift)
+      - __The Core Data Stack.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Pages/The Core Data Stack.xcplaygroundpage/Contents.swift)
     - __Resources__
-      - [CoreDataModelHelper.momd](testprep/Modern-Core-Data-Playground.playground/Resources/CoreDataModelHelper.momd)
+      - [CoreDataModelHelper.momd](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Resources/CoreDataModelHelper.momd)
       - __CoreDataModelHelper.xcdatamodeld__
         - __CoreDataModelHelper.xcdatamodel__
-          - [contents](testprep/Modern-Core-Data-Playground.playground/Resources/CoreDataModelHelper.xcdatamodeld/CoreDataModelHelper.xcdatamodel/contents)
+          - [contents](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Resources/CoreDataModelHelper.xcdatamodeld/CoreDataModelHelper.xcdatamodel/contents)
     - __Sources__
       - __Core Data Generated Files__
-        - [Project+CoreDataClass.swift](testprep/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Project+CoreDataClass.swift)
-        - [Task+CoreDataClass.swift](testprep/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Task+CoreDataClass.swift)
-        - [Project+CoreDataProperties.swift](testprep/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Project+CoreDataProperties.swift)
-        - [Task+CoreDataProperties.swift](testprep/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Task+CoreDataProperties.swift)
-      - [CountAllProjects.swift](testprep/Modern-Core-Data-Playground.playground/Sources/CountAllProjects.swift)
-      - [FirstProject.swift](testprep/Modern-Core-Data-Playground.playground/Sources/FirstProject.swift)
-      - [HWContainer.swift](testprep/Modern-Core-Data-Playground.playground/Sources/HWContainer.swift)
-      - [InsertSomeProjects.swift](testprep/Modern-Core-Data-Playground.playground/Sources/InsertSomeProjects.swift)
-    - [contents.xcplayground](testprep/Modern-Core-Data-Playground.playground/contents.xcplayground)
-    - __playground.xcworkspace__
-      - [contents.xcworkspacedata](testprep/Modern-Core-Data-Playground.playground/playground.xcworkspace/contents.xcworkspacedata)
-      - __xcshareddata__
-        - [IDEWorkspaceChecks.plist](testprep/Modern-Core-Data-Playground.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist)
-      - __xcuserdata__
-        - __dfreniche.xcuserdatad__
-          - [UserInterfaceState.xcuserstate](testprep/Modern-Core-Data-Playground.playground/playground.xcworkspace/xcuserdata/dfreniche.xcuserdatad/UserInterfaceState.xcuserstate)
-        - __krishna.xcuserdatad__
-          - [UserInterfaceState.xcuserstate](testprep/Modern-Core-Data-Playground.playground/playground.xcworkspace/xcuserdata/krishna.xcuserdatad/UserInterfaceState.xcuserstate)
-  - __CoreDataModelHelper__
-    - __CoreDataModelHelper__
-      - [AppDelegate.swift](testprep/CoreDataModelHelper/CoreDataModelHelper/AppDelegate.swift)
-      - __Assets.xcassets__
-        - __AppIcon.appiconset__
-          - [Contents.json](testprep/CoreDataModelHelper/CoreDataModelHelper/Assets.xcassets/AppIcon.appiconset/Contents.json)
-      - __Base.lproj__
-        - [LaunchScreen.storyboard](testprep/CoreDataModelHelper/CoreDataModelHelper/Base.lproj/LaunchScreen.storyboard)
-        - [Main.storyboard](testprep/CoreDataModelHelper/CoreDataModelHelper/Base.lproj/Main.storyboard)
-      - __CoreDataModelHelper.xcdatamodeld__
-        - __CoreDataModelHelper.xcdatamodel__
-          - [contents](testprep/CoreDataModelHelper/CoreDataModelHelper/CoreDataModelHelper.xcdatamodeld/CoreDataModelHelper.xcdatamodel/contents)
-      - [Info.plist](testprep/CoreDataModelHelper/CoreDataModelHelper/Info.plist)
-      - [ViewController.swift](testprep/CoreDataModelHelper/CoreDataModelHelper/ViewController.swift)
-    - __CoreDataModelHelper.xcodeproj__
-      - [project.pbxproj](testprep/CoreDataModelHelper/CoreDataModelHelper.xcodeproj/project.pbxproj)
-      - __project.xcworkspace__
-        - [contents.xcworkspacedata](testprep/CoreDataModelHelper/CoreDataModelHelper.xcodeproj/project.xcworkspace/contents.xcworkspacedata)
-        - __xcuserdata__
-          - __dfreniche.xcuserdatad__
-            - [UserInterfaceState.xcuserstate](testprep/CoreDataModelHelper/CoreDataModelHelper.xcodeproj/project.xcworkspace/xcuserdata/dfreniche.xcuserdatad/UserInterfaceState.xcuserstate)
-      - __xcuserdata__
-        - __dfreniche.xcuserdatad__
-          - __xcschemes__
-            - [CoreDataModelHelper.xcscheme](testprep/CoreDataModelHelper/CoreDataModelHelper.xcodeproj/xcuserdata/dfreniche.xcuserdatad/xcschemes/CoreDataModelHelper.xcscheme)
-            - [xcschememanagement.plist](testprep/CoreDataModelHelper/CoreDataModelHelper.xcodeproj/xcuserdata/dfreniche.xcuserdatad/xcschemes/xcschememanagement.plist)
+        - [Project+CoreDataClass.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Project+CoreDataClass.swift)
+        - [Project+CoreDataProperties.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Project+CoreDataProperties.swift)
+        - [Task+CoreDataClass.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Task+CoreDataClass.swift)
+        - [Task+CoreDataProperties.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/Core Data Generated Files/Task+CoreDataProperties.swift)
+      - [FirstProject.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/FirstProject.swift)
+      - [CountAllProjects.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/CountAllProjects.swift)
+      - [HWContainer.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/HWContainer.swift)
+      - [InsertSomeProjects.swift](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/Sources/InsertSomeProjects.swift)
+    - [contents.xcplayground](iOS-Study-Playgrounds/Modern-Core-Data-Playground.playground/contents.xcplayground)
+  - [Modern-Core-Data-Playground.md](iOS-Study-Playgrounds/Modern-Core-Data-Playground.md)
+  - __Crustacean.playground__
+    - __Pages__
+      - __License.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Crustacean.playground/Pages/License.xcplaygroundpage/Contents.swift)
+      - __Page 1.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Crustacean.playground/Pages/Page 1.xcplaygroundpage/Contents.swift)
+      - __Page 2.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Crustacean.playground/Pages/Page 2.xcplaygroundpage/Contents.swift)
+    - __Sources__
+      - [CoreGraphicsDiagramView.swift](iOS-Study-Playgrounds/Crustacean.playground/Sources/CoreGraphicsDiagramView.swift)
+    - [contents.xcplayground](iOS-Study-Playgrounds/Crustacean.playground/contents.xcplayground)
   - __Swift Standard Library.playground__
     - __Pages__
       - __Creating a Generic Collection.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Creating a Generic Collection.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Creating a Generic Collection.xcplaygroundpage/Contents.swift)
         - __Sources__
-          - [DateIndex.swift](testprep/Swift Standard Library.playground/Pages/Creating a Generic Collection.xcplaygroundpage/Sources/DateIndex.swift)
-        - [timeline.xctimeline](testprep/Swift Standard Library.playground/Pages/Creating a Generic Collection.xcplaygroundpage/timeline.xctimeline)
+          - [DateIndex.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Creating a Generic Collection.xcplaygroundpage/Sources/DateIndex.swift)
       - __Customizing Textual Representations.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Customizing Textual Representations.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Swift Standard Library.playground/Pages/Customizing Textual Representations.xcplaygroundpage/timeline.xctimeline)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Customizing Textual Representations.xcplaygroundpage/Contents.swift)
       - __Indexing and Slicing Strings.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Indexing and Slicing Strings.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Indexing and Slicing Strings.xcplaygroundpage/Contents.swift)
         - __Sources__
-          - [GroupChat.swift](testprep/Swift Standard Library.playground/Pages/Indexing and Slicing Strings.xcplaygroundpage/Sources/GroupChat.swift)
-          - [Message.swift](testprep/Swift Standard Library.playground/Pages/Indexing and Slicing Strings.xcplaygroundpage/Sources/Message.swift)
-        - [timeline.xctimeline](testprep/Swift Standard Library.playground/Pages/Indexing and Slicing Strings.xcplaygroundpage/timeline.xctimeline)
+          - [GroupChat.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Indexing and Slicing Strings.xcplaygroundpage/Sources/GroupChat.swift)
+          - [Message.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Indexing and Slicing Strings.xcplaygroundpage/Sources/Message.swift)
       - __License.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/License.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Swift Standard Library.playground/Pages/License.xcplaygroundpage/timeline.xctimeline)
-      - __Processing Sequences and Collections.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Processing Sequences and Collections.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Swift Standard Library.playground/Pages/Processing Sequences and Collections.xcplaygroundpage/timeline.xctimeline)
-      - __Revision History.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Revision History.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/License.xcplaygroundpage/Contents.swift)
       - __Sequences and Collections.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Sequences and Collections.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Sequences and Collections.xcplaygroundpage/Contents.swift)
+      - __Revision History.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Revision History.xcplaygroundpage/Contents.swift)
       - __Slicing Collections.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Slicing Collections.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Swift Standard Library.playground/Pages/Slicing Collections.xcplaygroundpage/timeline.xctimeline)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Slicing Collections.xcplaygroundpage/Contents.swift)
       - __Table of Contents.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Table of Contents.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Table of Contents.xcplaygroundpage/Contents.swift)
+      - __Processing Sequences and Collections.xcplaygroundpage__
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Processing Sequences and Collections.xcplaygroundpage/Contents.swift)
       - __Understanding Collection Protocols.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Understanding Collection Protocols.xcplaygroundpage/Contents.swift)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Understanding Collection Protocols.xcplaygroundpage/Contents.swift)
         - __Sources__
-          - [FinishedTimeline.swift](testprep/Swift Standard Library.playground/Pages/Understanding Collection Protocols.xcplaygroundpage/Sources/FinishedTimeline.swift)
-        - [timeline.xctimeline](testprep/Swift Standard Library.playground/Pages/Understanding Collection Protocols.xcplaygroundpage/timeline.xctimeline)
+          - [FinishedTimeline.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Understanding Collection Protocols.xcplaygroundpage/Sources/FinishedTimeline.swift)
       - __Text.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Text.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Swift Standard Library.playground/Pages/Text.xcplaygroundpage/timeline.xctimeline)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Text.xcplaygroundpage/Contents.swift)
       - __Understanding Value Semantics.xcplaygroundpage__
-        - [Contents.swift](testprep/Swift Standard Library.playground/Pages/Understanding Value Semantics.xcplaygroundpage/Contents.swift)
-        - [timeline.xctimeline](testprep/Swift Standard Library.playground/Pages/Understanding Value Semantics.xcplaygroundpage/timeline.xctimeline)
+        - [Contents.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Pages/Understanding Value Semantics.xcplaygroundpage/Contents.swift)
     - __Resources__
-      - [Italy 002.jpg](testprep/Swift Standard Library.playground/Resources/Italy 002.jpg)
-      - [Italy 005.jpg](testprep/Swift Standard Library.playground/Resources/Italy 005.jpg)
-      - [Italy 007.jpg](testprep/Swift Standard Library.playground/Resources/Italy 007.jpg)
-      - [Italy 006.jpg](testprep/Swift Standard Library.playground/Resources/Italy 006.jpg)
-      - [Italy 012.jpg](testprep/Swift Standard Library.playground/Resources/Italy 012.jpg)
-      - [Italy 010.jpg](testprep/Swift Standard Library.playground/Resources/Italy 010.jpg)
-      - [Italy 014.jpg](testprep/Swift Standard Library.playground/Resources/Italy 014.jpg)
-      - [Italy 015.jpg](testprep/Swift Standard Library.playground/Resources/Italy 015.jpg)
-      - [Italy 016.jpg](testprep/Swift Standard Library.playground/Resources/Italy 016.jpg)
-      - [Italy 018.jpg](testprep/Swift Standard Library.playground/Resources/Italy 018.jpg)
-      - [Italy 019.jpg](testprep/Swift Standard Library.playground/Resources/Italy 019.jpg)
-      - [NoImage.jpg](testprep/Swift Standard Library.playground/Resources/NoImage.jpg)
-      - [Italy 020.jpg](testprep/Swift Standard Library.playground/Resources/Italy 020.jpg)
-      - [Timeline.plist](testprep/Swift Standard Library.playground/Resources/Timeline.plist)
-    - [contents.xcplayground](testprep/Swift Standard Library.playground/contents.xcplayground)
+      - [Italy 002.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 002.jpg)
+      - [Italy 005.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 005.jpg)
+      - [Italy 006.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 006.jpg)
+      - [Italy 007.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 007.jpg)
+      - [Italy 010.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 010.jpg)
+      - [Italy 012.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 012.jpg)
+      - [Italy 014.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 014.jpg)
+      - [Italy 015.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 015.jpg)
+      - [Italy 016.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 016.jpg)
+      - [Italy 018.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 018.jpg)
+      - [Italy 019.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 019.jpg)
+      - [Italy 020.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Italy 020.jpg)
+      - [NoImage.jpg](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/NoImage.jpg)
+      - [Timeline.plist](iOS-Study-Playgrounds/Swift Standard Library.playground/Resources/Timeline.plist)
+    - [contents.xcplayground](iOS-Study-Playgrounds/Swift Standard Library.playground/contents.xcplayground)
     - __Sources__
-      - [RecipeApp.swift](testprep/Swift Standard Library.playground/Sources/RecipeApp.swift)
-      - [StringVisualizations.swift](testprep/Swift Standard Library.playground/Sources/StringVisualizations.swift)
-      - [TimelineVisualizations.swift](testprep/Swift Standard Library.playground/Sources/TimelineVisualizations.swift)
-    - __playground.xcworkspace__
-      - [contents.xcworkspacedata](testprep/Swift Standard Library.playground/playground.xcworkspace/contents.xcworkspacedata)
-      - __xcshareddata__
-        - [IDEWorkspaceChecks.plist](testprep/Swift Standard Library.playground/playground.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist)
-      - __xcuserdata__
-        - __krishna.xcuserdatad__
-          - [UserInterfaceState.xcuserstate](testprep/Swift Standard Library.playground/playground.xcworkspace/xcuserdata/krishna.xcuserdatad/UserInterfaceState.xcuserstate)
-  - [Modern-Core-Data-Playground.md](testprep/Modern-Core-Data-Playground.md)
-  - [README.md](testprep/README.md)
+      - [RecipeApp.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Sources/RecipeApp.swift)
+      - [StringVisualizations.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Sources/StringVisualizations.swift)
+      - [TimelineVisualizations.swift](iOS-Study-Playgrounds/Swift Standard Library.playground/Sources/TimelineVisualizations.swift)
+  - [README.md](iOS-Study-Playgrounds/README.md)
   - __Using-JSON-with-Custom-Types.playground__
-    - __Pages__
-      - __Access Nested Data.xcplaygroundpage__
-        - [Contents.swift](testprep/Using-JSON-with-Custom-Types.playground/Pages/Access Nested Data.xcplaygroundpage/Contents.swift)
-      - __Change Key Names.xcplaygroundpage__
-        - [Contents.swift](testprep/Using-JSON-with-Custom-Types.playground/Pages/Change Key Names.xcplaygroundpage/Contents.swift)
-      - __LICENSE.xcplaygroundpage__
-        - [Contents.swift](testprep/Using-JSON-with-Custom-Types.playground/Pages/LICENSE.xcplaygroundpage/Contents.swift)
-      - __Merge Data from Different Depths.xcplaygroundpage__
-        - [Contents.swift](testprep/Using-JSON-with-Custom-Types.playground/Pages/Merge Data from Different Depths.xcplaygroundpage/Contents.swift)
-      - __Read Data from Arrays.xcplaygroundpage__
-        - [Contents.swift](testprep/Using-JSON-with-Custom-Types.playground/Pages/Read Data from Arrays.xcplaygroundpage/Contents.swift)
-      - __Table of Contents.xcplaygroundpage__
-        - [Contents.swift](testprep/Using-JSON-with-Custom-Types.playground/Pages/Table of Contents.xcplaygroundpage/Contents.swift)
-    - [contents.xcplayground](testprep/Using-JSON-with-Custom-Types.playground/contents.xcplayground)
   - __core-data-intro.playground__
-    - [Contents.swift](testprep/core-data-intro.playground/Contents.swift)
-    - [contents.xcplayground](testprep/core-data-intro.playground/contents.xcplayground)
-    - [timeline.xctimeline](testprep/core-data-intro.playground/timeline.xctimeline)
+    - [Contents.swift](iOS-Study-Playgrounds/core-data-intro.playground/Contents.swift)
+    - [contents.xcplayground](iOS-Study-Playgrounds/core-data-intro.playground/contents.xcplayground)
   - __events-ios.playground__
-    - [Contents.swift](testprep/events-ios.playground/Contents.swift)
+    - [Contents.swift](iOS-Study-Playgrounds/events-ios.playground/Contents.swift)
     - __Resources__
       - __Model.xcdatamodel__
-        - [contents](testprep/events-ios.playground/Resources/Model.xcdatamodel/contents)
+        - [contents](iOS-Study-Playgrounds/events-ios.playground/Resources/Model.xcdatamodel/contents)
     - __Sources__
-      - [CoreDataHelpers.swift](testprep/events-ios.playground/Sources/CoreDataHelpers.swift)
-      - [DataSource.swift](testprep/events-ios.playground/Sources/DataSource.swift)
-    - [timeline.xctimeline](testprep/events-ios.playground/timeline.xctimeline)
-    - [contents.xcplayground](testprep/events-ios.playground/contents.xcplayground)
+      - [CoreDataHelpers.swift](iOS-Study-Playgrounds/events-ios.playground/Sources/CoreDataHelpers.swift)
+      - [DataSource.swift](iOS-Study-Playgrounds/events-ios.playground/Sources/DataSource.swift)
+    - [contents.xcplayground](iOS-Study-Playgrounds/events-ios.playground/contents.xcplayground)
   - __img__
-    - [init-core-data.png](testprep/img/init-core-data.png)
-  - __uikit-core-data.playground__
-    - [Contents.swift](testprep/uikit-core-data.playground/Contents.swift)
-    - __Resources__
-      - [Model.momd](testprep/uikit-core-data.playground/Resources/Model.momd)
-      - __Model.xcdatamodel__
-        - [contents](testprep/uikit-core-data.playground/Resources/Model.xcdatamodel/contents)
-    - [timeline.xctimeline](testprep/uikit-core-data.playground/timeline.xctimeline)
-    - [contents.xcplayground](testprep/uikit-core-data.playground/contents.xcplayground)
+    - [init-core-data.png](iOS-Study-Playgrounds/img/init-core-data.png)
   - __nstableview-core-data.playground__
-    - [Contents.swift](testprep/nstableview-core-data.playground/Contents.swift)
+    - [Contents.swift](iOS-Study-Playgrounds/nstableview-core-data.playground/Contents.swift)
     - __Resources__
-      - [Model.momd](testprep/nstableview-core-data.playground/Resources/Model.momd)
-    - [timeline.xctimeline](testprep/nstableview-core-data.playground/timeline.xctimeline)
-    - [contents.xcplayground](testprep/nstableview-core-data.playground/contents.xcplayground)
+      - [Model.momd](iOS-Study-Playgrounds/nstableview-core-data.playground/Resources/Model.momd)
+    - [contents.xcplayground](iOS-Study-Playgrounds/nstableview-core-data.playground/contents.xcplayground)
+  - __uikit-core-data.playground__
+    - [Contents.swift](iOS-Study-Playgrounds/uikit-core-data.playground/Contents.swift)
+    - __Resources__
+      - [Model.momd](iOS-Study-Playgrounds/uikit-core-data.playground/Resources/Model.momd)
+      - __Model.xcdatamodel__
+        - [contents](iOS-Study-Playgrounds/uikit-core-data.playground/Resources/Model.xcdatamodel/contents)
+    - [contents.xcplayground](iOS-Study-Playgrounds/uikit-core-data.playground/contents.xcplayground)
 
 
 ## References 
