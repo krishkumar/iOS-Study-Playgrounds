@@ -1,4 +1,28 @@
-## Test Prep - iOS, REST
+# iOS Study, Skills
+
+## iOS Skill List 
+
+**Swift Language**
+
+- structs, enums, properties, classes, extensions, let and var, guard let, if let
+- Exception handling – try, catch, defer, try?, try!, throw
+- Optional chaining, blocks , GCD, Access  Specifiers  private/public/file-private
+- Protocols, Generics, Protocol Oriented Programming
+
+**iOS Development**
+
+- Design Patterns - Delegate, KVO, Singleton
+- Memory management, ARC, Different Object references - weak, strong, unowned
+- Background upload/download using URLsession
+- Custom Framework / Static library
+- Auto Layout, Constraints and Size classes
+- Threading (GCD, blocks, Operations, Dispatch Queues)
+- Persistence storage SQLite, Keychain, User default, document directory
+- Dependency management cocoa pods, carthage, swift package manager
+- Performance optimization, crash analysis and solutioning
+- Profiling & Instruments
+- Dev Ops – Jira, Git, Jenkins, Confluence
+
 
 ## Playgrounds, Files 
 
