@@ -65,6 +65,28 @@ struct IntQueue : Queue {
     typealias QueueType = Int
 }
 
+/// protocol associated types - runtime polymorphism with generics
+struct QueueAll<T> : Queue {
+    func count() -> Int {
+        return items.count
+    }
+    
+    typealias QueueType = T
+    
+    var items: [T] = []
+    mutating func pushFront(item: T) {
+        //
+        items.append(item)
+    }
+    mutating func popFront() -> T? {
+        items.popLast()
+    }
+}
+
+let qall1 = QueueAll(items: [CGFloat(integerLiteral: 20),CGFloat(integerLiteral: 25)])
+print(qall1.count())
+
+
 // protocol delegates
 protocol DisplayNameDelegate {
     func displayName(name: String)
