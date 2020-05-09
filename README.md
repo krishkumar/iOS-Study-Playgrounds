@@ -1,4 +1,11 @@
 # iOS Study Playgrounds
 
 ## Combine 
-[3-6-20.playground](3-6-20.playground)
+[Publisher-Subscriber.playground](Publisher-Subscriber.playground)
+
+## Generics
+[Generics.playground](Generics.playground)
+
+## Protocols
+[Protocols.playground](Protocols.playground)
+
